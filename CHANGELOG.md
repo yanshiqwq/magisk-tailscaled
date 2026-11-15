@@ -1,3 +1,7 @@
+## v2.0.1.0
+
+- 3701a15 Point changelog at fork
+
 ## v2.0.0.1
 
 - 429e1b0 build: fix version bump and add pre-release for build version
