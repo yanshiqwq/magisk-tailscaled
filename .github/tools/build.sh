@@ -22,7 +22,7 @@ for ARCH in arm arm64; do
   esac
   
   echo "- Downloading tailscaled for ${ARCH}..."
-  URL=$(get_latest_release "anasfanani/tailscale-android-cli" "tailscale_.*_${ARCH}\.tgz")
+  URL=$(get_latest_release "yanshiqwq/tailscale-android-cli" "tailscale_.*_${ARCH}\.tgz")
   curl -#L "$URL" | tar -xz -C "$BIN_DIR"
   mv "$BIN_DIR/tailscaled" "$BIN_DIR/tailscaled-$ARCH"
   
